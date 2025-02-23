@@ -56,7 +56,6 @@ int main(){
 
 
 ### filepath highlight
-
 `assets/img/post-0/5.jpg`{: .filepath}
 
 
