@@ -20,6 +20,8 @@ pin: true
 
 math: true
 
+mermaid: true
+
 ---
 
 
@@ -83,3 +85,26 @@ inline math in lists:
 1. \$$ 1+1=2 $$
 2. \$$ 2+2=4 $$
 3. \$$ 3+3=6 $$
+
+
+## Diagrams with Mermaid
+
+```mermaid
+flowchart LR
+
+    A[Hard] -->|act_1| B(Round)
+    B -->|act_2| C{Decision}
+    C -->|act_3_1| D[Result 1]
+    C -->|act_3_2| E[Result 2]
+
+```
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
+<script>
+    mermaid.initialize({
+        theme: 'neutral'
+    });
+</script>
