@@ -10,41 +10,56 @@
 /* append your custom style below */
 
 #sidebar {
-  font-family: "Consolas" ;
+  font-family: 'Consolas' ;
 }
 
 #sidebar ul li.nav-item a.nav-link span {
-  font-family: "Consolas";
+  font-family: 'Consolas';
 }
 
 #panel-wrapper {
-  font-family: "Consolas" 
+  font-family: 'Consolas' 
 }
 
+
+// #sidebar {
+//   font-family: 'Inconsolata', sans-serif ;
+// }
+
+// #sidebar ul li.nav-item a.nav-link span {
+//   font-family: 'Inconsolata', sans-serif;
+// }
+
+// #panel-wrapper {
+//   font-family: 'Inconsolata', sans-serif 
+// }
+
+
+
 // h1 {
-//   font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+//   font-family: 'Inconsolata', sans-serif /*Lato, "Microsoft Yahei", sans-serif;*/
 // }
 
 // h2 {
-//   font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+//   font-family: 'Inconsolata', sans-serif /*Lato, "Microsoft Yahei", sans-serif;*/
 // }
 
 // h3 {
-//   font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+//   font-family: 'Inconsolata', sans-serif; /*Lato, "Microsoft Yahei", sans-serif;*/
 // }
 
 // h4 {
-//   font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+//   font-family: 'Inconsolata', sans-serif; /*Lato, "Microsoft Yahei", sans-serif;*/
 // }
 
 // p {
-//   font-family: "Consolas" !important; /*Lato, "Microsoft Yahei", sans-serif;*/
+//   font-family: 'Inconsolata', sans-serif !important; /*Lato, "Microsoft Yahei", sans-serif;*/
 // }
 
 // h5 {
 //     color: var(--heading-color);
 //     font-weight: 400;
-//     font-family: "Consolas" !important; /*Lato, "Microsoft Yahei", sans-serif;*/
+//     font-family: 'Inconsolata', sans-serif !important; /*Lato, "Microsoft Yahei", sans-serif;*/
 //     scroll-margin-top: 3.5rem
 // }
 
@@ -53,8 +68,51 @@
 //     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 //     color: var(--text-color);
 //     -webkit-font-smoothing: antialiased;
-//     font-family: "Consolas" !important; /*"Source Sans Pro", "Microsoft Yahei", sans-serif */
+//     font-family: 'Inconsolata', sans-serif !important; /*"Source Sans Pro", "Microsoft Yahei", sans-serif */
+//     // text-rendering: optimizeLegibility;
+//     // font-feature-settings: 'liga' 1;
+//     // text-align: justify
 // }   
+
+
+
+h1 {
+  font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+}
+
+h2 {
+  font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+}
+
+h3 {
+  font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+}
+
+h4 {
+  font-family: "Consolas"; /*Lato, "Microsoft Yahei", sans-serif;*/
+}
+
+p {
+  font-family: "Consolas" !important; /*Lato, "Microsoft Yahei", sans-serif;*/
+}
+
+h5 {
+    color: var(--heading-color);
+    font-weight: 400;
+    font-family: "Consolas" !important; /*Lato, "Microsoft Yahei", sans-serif;*/
+    scroll-margin-top: 3.5rem
+}
+
+body {
+    background: var(--main-bg);
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    font-family: "Consolas" !important; /*"Source Sans Pro", "Microsoft Yahei", sans-serif */
+    // text-rendering: optimizeLegibility;
+    // font-feature-settings: 'liga' 1;
+    // text-align: justify
+}   
 
 // kbd {
 //   font-family: "Consolas"; /*Lato, sans-serif;*/
