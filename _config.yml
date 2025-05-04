@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 
 title: Bach Nguyen # the main title
 
-tagline: Computer Vision, Robotics Perception # it will display as the subtitle
+tagline: 3D Computer Vision, Robotics Perception # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: light # [light | dark]
+theme_mode: #dark #light # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

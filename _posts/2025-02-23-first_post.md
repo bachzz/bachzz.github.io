@@ -28,7 +28,7 @@ mermaid: true
 
 ## Image
 
-![mr-robot](assets/img/post-0/8.jpg){: width="700" height="400" .normal .light .shadow}
+![mr-robot](assets/img/post-0/8.jpg){: width="700" height="400" .normal .shadow}
 _Bonjour, Elliot._
 
 
