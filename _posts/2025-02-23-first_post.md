@@ -1,7 +1,7 @@
 ---
 title: First Post
 date: 2025-02-22 13:12:00 +0900
-categories: [test, others]
+categories: [test]
 tags: [test, demo]
 
 author: bachng
@@ -16,7 +16,7 @@ image:
     path: assets/img/post-0/5.jpg
     alt: mr-robot
 
-pin: true
+pin: false
 
 math: true
 

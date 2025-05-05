@@ -152,7 +152,7 @@ It can be seen that the reconstructed image in Gazebo can still maintain limited
 - output: position + orientation on 2D latent map
 ```
 
-### Seen images
+#### Seen images
 Run `Localize seen images` (images used to embed RNR-Map) cells for either Habitat or Gazebo data.
 
 > **Note**: Again, comment out the lines following `convert from Gazebo coord to RNR-Map coord` if you use Habitat data
@@ -166,7 +166,7 @@ Run `Localize seen images` (images used to embed RNR-Map) cells for either Habit
 
 **Red** denotes the ground-truth pose, and **Blue** denotes the predicted (localized) pose. Location heatmap shows regions with probability score where the query image might belong to. It can be seen that the `Localizer` model still can roughly estimate correct poses, at least the positions, in the Gazebo data for most cases, from only 2D latent codes, despite poor reconstruction. Typically, for well-reconstructed objects (i.e. fridge, door), the poses are more accurate. 
 
-### Unseen images
+#### Unseen images
 Next, we will use Gazebo images that are not seen during RNR-Map embedding to see how it is generalizable to novel views.
 
 Run the `Localize unseen images (not observed during exploration)` cells, and you will obtain the following example results:
@@ -453,7 +453,7 @@ And that's it ! Now you know the basics of RNR-Map, and how to capture new data 
 Thank you for reaching this point :)
 
 
-## Next steps?
-As you can see, we haven't retrained RNR-Map models on Gazebo data, but it still can generally localize well when observing objects with somewhat defined reconstructions (i.e: fridge, door). Possible reason for this is that they are simply large objects with few details, thus a single latent code might not capture sufficient information? 
+## What's next?
+As you can see, we haven't retrained RNR-Map models on Gazebo data, but it still can generally localize well when observing objects with somewhat defined reconstructions (i.e: fridge, door). Possible reason for this is that they are simply large objects with few details, thus a single latent code might not capture sufficient information?
 - Reconstruction: How should we improve the handling of latent code to better reconstruct fine-grained details? [RNR-Map++](https://arxiv.org/abs/2410.05621) might be an option. What about Gaussian Splatting? I'm curious. 
-- Localization: Can integrating **natural language** latent embeddings improve its localization ability? [Le-RNR-Map](https://intelligolabs.github.io/Le-RNR-Map/) might be an option.
+- Localization: Can integrating **natural language** latent embeddings improve its localization ability? [Le-RNR-Map](https://intelligolabs.github.io/Le-RNR-Map/) might be an option. Moreover, this may enable further tasks such as object-goal localization (i.e: you ask 'go to where I cook', robot moves to kitchen)
