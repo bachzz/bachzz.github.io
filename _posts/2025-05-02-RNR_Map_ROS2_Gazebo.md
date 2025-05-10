@@ -2,7 +2,7 @@
 title: "Renderable Neural Radiance Map (RNR-Map) + Gazebo (part 1)"
 date: 2025-05-02 00:00:00 +0900
 categories: [projects]
-tags: [NeRF, Gazebo, ROS2, SLAM, navigation, 3D vision, AI, CVPR2023]
+tags: [nerf, gazebo, ros2, slam, simulation, navigation, 3d-vision, AI, cvpr2023]
 
 author: bachng
 
